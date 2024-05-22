@@ -1,0 +1,203 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style sheet.css">
+        <script src="https://kit.fontawesome.com/f348914ef2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="header">
+            <img src="image/logo.jpeg" class="logo"> 
+            <nav class="navbar">
+            
+                <a href="index.html">HOME</a> 
+                <a href="about pg.html">ABOUT</a>
+                <a href="product link page.html">PRODUCTS</a>
+                <a href="order page.html">ORDER</a>
+                <a href="loyalty pg.html">LOYALTY REGISTRATION</a>
+
+            </nav>
+    
+    
+    
+            <div class="icons">
+                <a href="order page.html" > <img src="image/Cart.png"  class="icons_img_w_h"></a>
+               
+                <a href="loyalty pg.html"> <img src="image/User.png" alt="User" class="icons_img_w_h"></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+    
+    <section class="searchbar">
+        <form>
+            <input type="text" placeholder="Search..." size="50">
+            <button type="submit">GO</button>
+        </form>
+    </section>
+
+
+        <section class="form">
+            <div class="header_order">
+            <h2> <u>Shipping Address</u></h2>
+            </div>
+            
+            <form >
+                <fieldset>
+                <legend> <b> Name</b> </legend>
+
+            
+                 
+                   <div class="personal Information">
+
+                
+                    <br>
+                    
+                    <label for="First Name">First Name</label>
+                    <input type="text" name="fname" required>
+
+                    <label for="Last Name">Last Name</label>
+                    <input type="text" name="lname" required>
+                    
+                </fieldset>
+
+                <br> <br>
+
+                <fieldset>
+                    <legend> <b>Contacts</b> </legend>
+                
+                    <br>
+                    <label for="First Phone Number">First Phone Number</label>
+                    <input type="text" name="tel" maxlength="12" value="+94" required>
+
+                    <label for="Second Phone Number">Second Phone Number</label>
+                    <input type="text" name="2tel" maxlength="12" value="+94" required> 
+
+                    <label for="Gmail">Gmail</label>
+                    <input type="text" name="gmail" required> 
+
+                    <br>
+
+                </fieldset>
+
+                <br> <br>
+
+
+                <fieldset>
+
+                    <legend> <b> Information for Shipping  </b> </legend>
+
+                    <br>
+
+                    <label for="Address">Address</label>
+                    <input type="text" name="address"  required>
+
+                    <label for="Zip Code ">Zip Code</label>
+                    <input type="text" name="zipcode" maxlength="5" required> 
+
+                    <br>
+
+                </fieldset>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+
+                </div>
+        
+                
+                </form>
+            
+        </section>
+
+        <br><br><br><br>
+       
+        <section class="form">
+            <div style="text-align: center;">
+            <h2> <u>payment method</u></h2>
+            <br>
+            </div>
+             <div>
+            <form >
+            <label for="Card Number">Card Number</label>
+            <input type="text" name="cardnumber"  required>
+
+            <label for="Expire Date">Expire date</label>
+            <input type="date" name="expire date"  required>
+            
+
+            <label for="Password">Password</label>
+            <input type="password" name="password"  required>
+            
+            
+            
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            </form>
+             </div>
+
+
+    </section>
+
+    <section>
+        <div class="cart_body">
+            <div class="cart">
+                <div class="cart-header">
+                    <h1>Your Shopping Cart</h1>
+                </div>
+                <div class="cart-item">
+                   
+                    <div class="item-details">
+                        <h2 class="item-title">Item 1</h2>
+                        <p class="item-price">RS 00.00</p>
+                    </div>
+                    <div class="item-quantity">
+                        <label for="quantity1">Qty:</label>
+                        <input type="number" id="quantity1" name="quantity1" value="1">
+                    </div>
+                </div>
+                <div class="cart-item">
+
+                    <div class="item-details">
+                        <h2 class="item-title">Item 2</h2>
+                        <p class="item-price">RS 00.00</p>
+                    </div>
+                    <div class="item-quantity">
+                        <label for="quantity2">Qty:</label>
+                        <input type="number" id="quantity2" name="quantity2" value="1">
+                    </div>
+                </div>
+                <div class="total">
+                    <p>Tax: RS 00.00</p>
+                    <p>Shipping: RS 00.00</p>
+                    <p>Total: RS 00.00</p>
+                </div>
+                <form class="button_place_order">
+                <input type="submit" value="Place the order">
+            </form>
+
+            </div>
+        </div>
+</section>
+
+</main>
+
+
+<footer class="footer">
+
+    <br>
+    <div>
+        <p>@2024 Grocies.All rights reserved</p><br>
+    </div>
+    <div class="footer-icons">
+        <a href="https://www.facebook.com/" class="icon-link"><i class="fa fa-facebook fa-2x"></i></a>
+        <a href="https://x.com/i/flow/login" class="icon-link"><i class="fa fa-twitter fa-2x"></i></a>
+        <a href="https://www.instagram.com/" class="icon-link"><i class="fa fa-instagram fa-2x"></i></a>
+      </div>    
+</footer>
+
+</body>
+</html>
